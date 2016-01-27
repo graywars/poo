@@ -14,8 +14,6 @@ class salarie
 		$this->_nom = $infos[1];
 		$this->_prenom = $infos[2];
 		$this->_salaire = $infos[3];
-		$this->_tauxcs = $infos[4];
-		$this->_tauxcp = $infos[5];
 	}
 
 	/*
