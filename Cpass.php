@@ -7,9 +7,11 @@ class pass
 
  	public function __construct($nb)
  	{
- 		$this->_digit = $nb;
+ 		$this->_digit = $nb; // Définition du nombre de caractère du mot de passe
  	}
-
+ 	/*
+ 	*	Classe de génération de mot de passe
+ 	*/
  	public function genere()
  	{
  		$this->_pass = "";
