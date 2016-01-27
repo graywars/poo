@@ -23,5 +23,6 @@ elseif($_GET['class'] == 3)
 	require_once('Csalarie.php');
 	$info = [1, "ostalier", "alexis", 1000];
 	$salarie1 = new salarie($info);
+	echo $salarie1->CalculerSalaireNet();
 }
 ?>
