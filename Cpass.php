@@ -10,7 +10,9 @@ class pass
  		$this->_digit = $nb; // Définition du nombre de caractère du mot de passe
  	}
  	/*
- 	*	Classe de génération de mot de passe
+ 	*	Méthode de génération de mot de passe
+ 	*	Entrée:	void
+ 	*	Sortie: char
  	*/
  	public function genere()
  	{
