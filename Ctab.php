@@ -3,11 +3,35 @@ class tab
 {
 	private $_tab, $_trie = [];
 
-	public function __construct($tab)
+	public function __construct()
+	{
+	}
+
+	/*
+	*	Méthode set tableau
+	*	Entrée:	array
+	*	sortie: void
+	*/
+	public function set_tab($tab)
 	{
 		$this->_tab = $tab;
 	}
 
+	/*
+	*	Méthode get tableau
+	*	Entrée: void
+	*	Sortie: array
+	*/
+	public function get_tab()
+	{
+		return $this->_tab;
+	}
+
+	/*
+	*	Méthode de tri du tableau selon l'ordre
+	*	Entrée: char
+	*	Sortie: Array
+	*/
 	public function tri($ordre)
 	{
 		foreach($this->_tab as $k => $v)
