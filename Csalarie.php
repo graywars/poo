@@ -5,8 +5,8 @@ class salarie
 	private $_nom = "";
 	private $_prenom = "";
 	private $_salaire = 0.0;
-	private $_tauxcs = 10;
-	private $_tauxcp = 25;
+	private $_tauxcs = 0.10;
+	private $_tauxcp = 0.25;
 
 	function __construct($infos)
 	{
