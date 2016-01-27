@@ -5,9 +5,14 @@ class tab
 
 	public function __construct($tab)
 	{
-		$this->_tab = $tab;
+		$this->_tab = $tab; // Définition du tableau qui va être trié
 	}
 
+	/*
+	*	Méthode de tri du tableau selon l'ordre voulut
+	*	Entrée: char
+	*	Sortie: array
+	*/
 	public function tri($ordre)
 	{
 		foreach($this->_tab as $k => $v)
