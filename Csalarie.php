@@ -26,4 +26,14 @@ class salarie
 		return $this->_salaire - ($this->_salaire * $this->_tauxcs);
 	}
 
+	/*
+	*	Méthode calcul cotisation
+	*	Entrée: void
+	*	Sortie: float
+	*/
+	public function cotisation()
+	{
+		return $this->_salaire * $this->_tauxcs;
+	}
+
 }
