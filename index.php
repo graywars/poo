@@ -21,6 +21,7 @@ elseif($_GET['class'] == 2)
 elseif($_GET['class'] == 3)
 {
 	require_once('Csalarie.php');
-	$salarie = new salarie();
+	$info = [1, "ostalier", "alexis", 1000];
+	$salarie1 = new salarie($info);
 }
 ?>
