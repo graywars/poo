@@ -16,4 +16,9 @@ elseif($_GET['class'] == 2)
 	$pass = new pass("8");
 	echo $pass->genere();
 }
+elseif($_GET['class'] == 3)
+{
+	require_once('Csalarie.php');
+	$salarie = new salarie();
+}
 ?>
